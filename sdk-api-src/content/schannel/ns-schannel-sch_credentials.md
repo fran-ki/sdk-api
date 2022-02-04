@@ -338,7 +338,7 @@ It is an error to specify more than SCH_CRED_MAX_SUPPORTED_PARAMETERS.
 
 ### -field pTlsParameters
 
-Array of pointers to the TLS_PARAMETERS structures that indicate TLS parameter restrictions, if any. If no restrictions are specified, the system defaults are used. It is recommended that applications rely on the system defaults.
+Array of pointers to the <a href="/windows/desktop/api/schannel/ns-schannel-tls_parameters">TLS_PARAMETERS</a> structures that indicate TLS parameter restrictions, if any. If no restrictions are specified, the system defaults are used. It is recommended that applications rely on the system defaults.
 
 It is an error to include more than one TLS_PARAMETERS structure with cAlpnIds == 0 and rgstrAlpnIds == NULL.
 
